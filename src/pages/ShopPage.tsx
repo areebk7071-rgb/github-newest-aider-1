@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Search, SlidersHorizontal } from 'lucide-react';
 import Seo from '../components/shared/Seo';
 import ProductCard from '../components/shared/ProductCard';
@@ -179,19 +178,17 @@ export default function ShopPage() {
               <p className="text-sm text-charcoal-500 mb-4">
                 {filtered.length} Karachi‑tested seed product{filtered.length !== 1 && 's'}
               </p>
-              <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <AnimatePresence mode="popLayout">
-                  {filtered.map((product) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      onAddToCart={addToCart}
-                      onToggleWishlist={toggleWishlist}
-                      isInWishlist={isInWishlist}
-                    />
-                  ))}
-                </AnimatePresence>
-              </motion.div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {filtered.map((product) => (
+                  <ProductCard
+                    key={product.id}
+                    product={product}
+                    onAddToCart={addToCart}
+                    onToggleWishlist={toggleWishlist}
+                    isInWishlist={isInWishlist}
+                  />
+                ))}
+              </div>
               {filtered.length === 0 && (
                 <p className="text-center py-16 text-charcoal-500">
                   No products match your search. Try “medicinal”, “balcony”, or “heat tolerant”.
