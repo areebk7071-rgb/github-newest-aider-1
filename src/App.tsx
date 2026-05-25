@@ -1,97 +1,44 @@
-import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
-import { CartProvider } from './context/CartContext';
-import { ThemeProvider } from './context/ThemeContext';
-import MainLayout from './layouts/MainLayout';
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+import ShopPage from './pages/ShopPage';
+import ProductPage from './pages/ProductPage';
+import QuizPage from './pages/QuizPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import NativeKarachiPage from './pages/NativeKarachiPage';
+import CommunityPage from './pages/CommunityPage';
+import MainLayout from './layouts/MainLayout';
 
-const ShopPage = lazy(() => import('./pages/ShopPage'));
-const ProductPage = lazy(() => import('./pages/ProductPage'));
-const QuizPage = lazy(() => import('./pages/QuizPage'));
-const AboutPage = lazy(() => import('./pages/AboutPage'));
-const ContactPage = lazy(() => import('./pages/ContactPage'));
-const NativeKarachiPage = lazy(() => import('./pages/NativeKarachiPage'));
-const CommunityPage = lazy(() => import('./pages/CommunityPage'));
-
-function PageLoader() {
-  return (
-    <div className="min-h-[50vh] flex items-center justify-center pt-32">
-      <div className="w-10 h-10 border-4 border-mint-500 border-t-transparent rounded-full animate-spin" />
-    </div>
-  );
-}
-
+/**
+ * Root component of the application.
+ * It wraps all pages with the persistent layout (navbar, footer, cart drawer)
+ * and defines the client‑side routes.
+ *
+ * If any of the imported page components are missing, Vite will throw a clear
+ * error during compilation, preventing a silent white screen.
+ */
 export default function App() {
   return (
-    <HelmetProvider>
-      <ThemeProvider>
-        <CartProvider>
-          <BrowserRouter>
-            <Routes>
-              <Route element={<MainLayout />}>
-                <Route index element={<HomePage />} />
-                <Route
-                  path="shop"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <ShopPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="product/:handle"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <ProductPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="quiz"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <QuizPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="about"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <AboutPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="contact"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <ContactPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="native-karachi"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <NativeKarachiPage />
-                    </Suspense>
-                  }
-                />
-                <Route
-                  path="community"
-                  element={
-                    <Suspense fallback={<PageLoader />}>
-                      <CommunityPage />
-                    </Suspense>
-                  }
-                />
-              </Route>
-            </Routes>
-          </BrowserRouter>
-        </CartProvider>
-      </ThemeProvider>
-    </HelmetProvider>
+    <MainLayout>
+      <Routes>
+        {/* Home */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* Shop & product routes */}
+        <Route path="/shop" element={<ShopPage />} />
+        <Route path="/product/:handle" element={<ProductPage />} />
+
+        {/* Additional pages */}
+        <Route path="/quiz" element={<QuizPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/native-karachi" element={<NativeKarachiPage />} />
+        <Route path="/community" element={<CommunityPage />} />
+
+        {/* Catch‑all: redirect unknown URLs to home */}
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </MainLayout>
   );
 }

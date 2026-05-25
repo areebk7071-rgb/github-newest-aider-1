@@ -8,11 +8,12 @@ export default function MainLayout() {
   const [cartOpen, setCartOpen] = useState(false);
 
   return (
-    <div className="min-h-screen min-h-[100dvh] bg-warm-50 dark:bg-charcoal-900 transition-colors duration-300 overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-warm-50 dark:bg-charcoal-900 transition-colors">
       <Navbar cartOpen={cartOpen} setCartOpen={setCartOpen} />
       <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
-      <main>
-        <Outlet context={{ setCartOpen }} />
+      <main className="flex-1">
+        {/* When using React Router v6 with a layout component, children are rendered via <Outlet> */}
+        <Outlet />
       </main>
       <Footer />
     </div>

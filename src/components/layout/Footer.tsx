@@ -35,7 +35,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">Nayab Seeds</span>
             </Link>
             <p className="text-charcoal-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Bringing biodiversity, greenery, and healing back into urban Pakistani spaces through climate-adapted plants and seeds.
+              Bringing biodiversity, greenery, and healing back into urban Pakistani spaces through climate‑adapted plants and seeds.
             </p>
             <div className="flex flex-col gap-2 text-sm text-charcoal-400">
               <div className="flex items-center gap-2">
