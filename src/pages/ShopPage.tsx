@@ -13,12 +13,12 @@ import type { SortOption } from '../types';
 const categorySeoBlurbs: Record<string, string> = {
   native: 'Shop native plants Pakistan — wildflowers and indigenous species tested for Karachi gardening and urban biodiversity.',
   medicinal: 'Medicinal plants Pakistan — tulsi, mint, moringa, and traditional herbs with Karachi growing guides.',
-  vegetables: 'Vegetable seeds for Karachi home gardens — coriander, fenugreek, and kitchen herbs for winter and monsoon.',
-  flowers: 'Flower seeds for Karachi balconies and rooftops — marigold, butterfly pea, and pollinator-friendly blooms.',
-  trees: 'Tree seeds and saplings for Karachi — moringa, neem, and long-term shade for rooftops and gardens.',
-  beginner: 'Beginner gardening Karachi — easy seeds and starter kits for first-time growers in Pakistan.',
-  pollinator: 'Pollinator-friendly seeds — attract bees and butterflies to your Karachi garden.',
-  'heat-tolerant': 'Heat tolerant plants Pakistan — species that survive Karachi summer temperatures (35–45°C).',
+  vegetables: 'Vegetable seeds — coriander, fenugreek, and kitchen herbs for winter and monsoon.',
+  flowers: 'Flower seeds — marigold, butterfly pea, and pollinator‑friendly blooms.',
+  trees: 'Tree seeds — mori and neem for long‑term shade.',
+  beginner: 'Beginner gardening — easy seeds and starter kits.',
+  pollinator: 'Pollinator‑friendly seeds — attract bees.',
+  'heat-tolerant': 'Heat‑tolerant plants — survive Karachi summer.',
 };
 
 export default function ShopPage() {
@@ -27,10 +27,11 @@ export default function ShopPage() {
   const [searchParams] = useSearchParams();
   const initialCategory = searchParams.get('category') || 'all';
 
-  const [category, setCategory] = useState(initialCategory);
-  const [search, setSearch] = useState('');
+  const [category, setCategory] = useState<string>(initialCategory);
+  const [search, setSearch] = useState<string>('');
   const [sort, setSort] = useState<SortOption>('featured');
 
+  // Keep URL in sync when user changes category via UI
   useEffect(() => {
     const cat = searchParams.get('category');
     if (cat) setCategory(cat);
@@ -40,7 +41,9 @@ export default function ShopPage() {
     let list = [...products];
 
     if (category !== 'all') {
-      list = list.filter((p) => p.shopTags.includes(category) || p.category === category);
+      list = list.filter(
+        (p) => p.shopTags.includes(category) || p.category === category
+      );
     }
 
     if (search.trim()) {
@@ -49,7 +52,7 @@ export default function ShopPage() {
         (p) =>
           p.name.toLowerCase().includes(q) ||
           p.description.toLowerCase().includes(q) ||
-          p.nameUrdu?.includes(q) ||
+          p.nameUrdu?.toLowerCase().includes(q) ||
           p.smartTags.some((t) => t.toLowerCase().includes(q))
       );
     }
@@ -65,6 +68,7 @@ export default function ShopPage() {
         list.sort((a, b) => a.name.localeCompare(b.name));
         break;
       default:
+        // “featured” – sort by Karachi rating descending
         list.sort((a, b) => b.karachiRating - a.karachiRating);
     }
 
@@ -89,26 +93,29 @@ export default function ShopPage() {
               Shop Seeds for Karachi Gardening
             </h1>
             <p className="text-charcoal-600 dark:text-charcoal-300 max-w-2xl leading-relaxed">
-              Buy native plants Pakistan, medicinal herbs, and heat tolerant plants tested for Karachi&apos;s climate.
-              Balcony-friendly varieties, COD delivery, and growing guides on every product.
+              Buy native plants Pakistan, medicinal herbs, and heat‑tolerant plants tested for Karachi&apos; climate.
             </p>
             {categoryBlurb && (
-              <p className="mt-3 text-sm text-mint-800 dark:text-mint-300 max-w-2xl">{categoryBlurb}</p>
+              <p className="mt-3 text-sm text-mint-800 dark:text-mint-300 max-w-2xl">
+                {categoryBlurb}
+              </p>
             )}
           </header>
 
+          {/* Search & sort controls */}
           <div className="flex flex-col lg:flex-row gap-4 mb-8">
             <div className="relative flex-1">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-charcoal-400" />
               <input
                 type="search"
-                placeholder="Search tulsi, mint, marigold, balcony plants…"
+                placeholder="Search seeds, plants, herbs…"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="w-full pl-12 pr-4 py-3 rounded-xl border border-sage-200 dark:border-charcoal-600 bg-white dark:bg-charcoal-800 text-charcoal-900 dark:text-warm-100 focus:ring-2 focus:ring-mint-500 outline-none"
-                aria-label="Search seeds for Karachi gardening"
+                aria-label="Search seeds"
               />
             </div>
+
             <div className="flex items-center gap-2">
               <SlidersHorizontal className="w-4 h-4 text-charcoal-400 shrink-0" />
               <select
@@ -120,17 +127,23 @@ export default function ShopPage() {
                 <option value="featured">Featured</option>
                 <option value="price-asc">Price: Low to High</option>
                 <option value="price-desc">Price: High to Low</option>
-                <option value="name">Name A-Z</option>
+                <option value="name">Name A‑Z</option>
               </select>
             </div>
           </div>
 
-          <nav className="flex gap-2 mb-8 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide snap-x snap-mandatory" aria-label="Product categories">
+          {/* Category navigation */}
+          <nav
+            className="flex gap-2 mb-8 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide snap-x snap-mandatory"
+            aria-label="Product categories"
+          >
             <button
               type="button"
               onClick={() => setCategory('all')}
               className={`flex-shrink-0 snap-start px-4 py-2.5 min-h-[44px] rounded-full text-sm font-medium transition-all touch-manipulation ${
-                category === 'all' ? 'bg-mint-600 text-white shadow-lg' : 'bg-white/70 dark:bg-charcoal-800 text-charcoal-600'
+                category === 'all'
+                  ? 'bg-mint-600 text-white shadow-lg'
+                  : 'bg-white/70 dark:bg-charcoal-800 text-charcoal-600'
               }`}
             >
               All Seeds
@@ -141,7 +154,9 @@ export default function ShopPage() {
                 type="button"
                 onClick={() => setCategory(cat.id)}
                 className={`flex-shrink-0 snap-start px-4 py-2.5 min-h-[44px] rounded-full text-sm font-medium transition-all whitespace-nowrap touch-manipulation ${
-                  category === cat.id ? 'bg-mint-600 text-white shadow-lg' : 'bg-white/70 dark:bg-charcoal-800 text-charcoal-600'
+                  category === cat.id
+                    ? 'bg-mint-600 text-white shadow-lg'
+                    : 'bg-white/70 dark:bg-charcoal-800 text-charcoal-600'
                 }`}
               >
                 {cat.icon} {cat.name}
@@ -149,15 +164,21 @@ export default function ShopPage() {
             ))}
           </nav>
 
+          {/* Product grid */}
           {loading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {Array.from({ length: 8 }).map((_, i) => (
-                <div key={i} className="h-80 rounded-2xl bg-sage-200/50 dark:bg-charcoal-700 animate-pulse" />
+                <div
+                  key={i}
+                  className="h-80 rounded-2xl bg-sage-200/50 dark:bg-charcoal-700 animate-pulse"
+                />
               ))}
             </div>
           ) : (
             <>
-              <p className="text-sm text-charcoal-500 mb-4">{filtered.length} Karachi-tested seed products</p>
+              <p className="text-sm text-charcoal-500 mb-4">
+                {filtered.length} Karachi‑tested seed product{filtered.length !== 1 && 's'}
+              </p>
               <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 <AnimatePresence mode="popLayout">
                   {filtered.map((product) => (
@@ -173,7 +194,7 @@ export default function ShopPage() {
               </motion.div>
               {filtered.length === 0 && (
                 <p className="text-center py-16 text-charcoal-500">
-                  No products match your search. Try &quot;medicinal&quot;, &quot;balcony&quot;, or &quot;heat tolerant&quot;.
+                  No products match your search. Try “medicinal”, “balcony”, or “heat tolerant”.
                 </p>
               )}
             </>
