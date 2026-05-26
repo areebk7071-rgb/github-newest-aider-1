@@ -10,14 +10,14 @@ export function scoreProduct(product: Product, answers: QuizAnswers): number {
   const sunMap: Record<string, string[]> = {
     'full-sun': ['Full Sun'],
     'partial-sun': ['Partial Sun', 'Partial Shade'],
-    shade: ['Full Shade', 'Partial Shade'],
+    'shade': ['Full Shade', 'Partial Shade'],
   };
   if (sunMap[answers.sunlight]?.includes(product.sunlight)) score += 25;
 
   const waterMap: Record<string, string[]> = {
-    daily: ['High', 'Moderate'],
-    moderate: ['Moderate'],
-    low: ['Low', 'Moderate'],
+    'daily': ['High', 'Moderate'],
+    'moderate': ['Moderate'],
+    'low': ['Low', 'Moderate'],
   };
   if (waterMap[answers.watering]?.includes(product.watering)) score += 20;
 
@@ -30,10 +30,10 @@ export function scoreProduct(product: Product, answers: QuizAnswers): number {
   if (answers.experience === 'experienced') score += 5;
 
   const seasonTags: Record<string, string[]> = {
-    summer: ['heat-tolerant'],
-    monsoon: ['native', 'flowers'],
-    winter: ['vegetables', 'edible', 'medicinal'],
-    spring: ['flowers', 'beginner'],
+    'summer': ['heat-tolerant'],
+    'monsoon': ['native', 'flowers'],
+    'winter': ['vegetables', 'edible', 'medicinal'],
+    'spring': ['flowers', 'beginner'],
   };
   if (seasonTags[answers.season]?.some((t) => product.shopTags.includes(t))) score += 15;
 

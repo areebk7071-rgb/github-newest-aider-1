@@ -61,46 +61,39 @@ export const businessFacts = {
 
 export const pageSeo = {
   home: {
-    title: 'Karachi Gardening Seeds — Native & Medicinal Plants Pakistan',
-    description:
-      'Nayab Seeds sells Karachi‑tested seeds for native plants Pakistan, medicinal herbs, balcony gardening Karachi, and heat‑tolerant plants Pakistan. Shop online with COD, growing guides, and a free plant quiz.',
+    title: "Nayab Seeds - Grow the Extraordinary",
+    description: "Buy premium vegetable, flower, herb, and native seeds online in Pakistan. Perfect for balcony gardening and backyard farming.",
+    h1Support: "Your trusted source to buy premium seeds online in Pakistan.",
   },
-  shop: {
-    title: 'Shop Seeds Karachi — Native, Medicinal & Heat‑Tolerant Plants',
-    description:
-      'Browse native plants Pakistan, medicinal plants Pakistan, vegetables, flowers, and heat‑tolerant plants Pakistan — all tested for Karachi gardening. Filter by category, search, and order with COD across Karachi.',
+  blog: {
+    title: "Gardening Blog - Nayab Seeds",
+    description: "Learn about balcony gardening, medicinal plants, monsoon planting tips, and more from our expert guides.",
   },
   quiz: {
-    title: 'Plant Quiz — Best Plants for Your Karachi Balcony or Garden',
-    description:
-      'Free Smart Plant Quiz for Karachi gardeners: get personalized seed recommendations for balcony gardening Karachi, sunlight, watering, and monsoon or winter planting season in Pakistan.',
+    title: "Plant Quiz - Find Your Perfect Seeds",
+    description: "Take our smart plant quiz to discover the best seeds for your space, sunlight, and experience level.",
+  },
+  shop: {
+    title: "Shop Seeds - Nayab Seeds",
+    description: "Browse our collection of premium vegetable, flower, herb, and native plant seeds.",
   },
   about: {
-    title: 'About Nayab Seeds — Karachi Ecological Gardening',
-    description:
-      'Nayab Seeds is a Karachi, Pakistan brand helping urban growers restore biodiversity with native plants, medicinal herbs, and climate‑adapted seeds for balconies and rooftops.',
-  },
-  contact: {
-    title: 'Contact — Seeds Delivery Karachi & Gardening Help',
-    description:
-      'Order seeds in Karachi via WhatsApp or email. COD, Easypaisa, and JazzCash accepted. Ask about balcony gardening Karachi, germination, and native plants Pakistan.',
-  },
-  nativeKarachi: {
-    title: 'Native Karachi — Ecological Restoration (Coming Soon)',
-    description:
-      'Future hub for native plants Pakistan, Miyawaki forests, and Karachi biodiversity — from the team behind Nayab Seeds ecological gardening.',
-  },
-  community: {
-    title: 'Karachi Gardening Community',
-    description:
-      'Karachi gardeners sharing balcony gardens, rooftop farms, and pollinator projects. Community forum coming soon from Nayab Seeds.',
+    title: "About Us - Nayab Seeds",
+    description: "Learn about our mission to promote ecological gardening and sustainable seed practices in Pakistan.",
   },
   education: {
-    title: 'Plant Guides & Education — Karachi Gardening',
-    description:
-      'Learn how to grow seeds, herbs, vegetables, and native plants in Karachi’s climate with our free gardening guides and tutorials.',
+    title: "Gardening Education - Nayab Seeds",
+    description: "Comprehensive guides on plant care, soil health, and sustainable gardening practices.",
   },
-} as const;
+  community: {
+    title: "Community - Nayab Seeds",
+    description: "Connect with fellow gardeners, share tips, and join our growing community of plant enthusiasts.",
+  },
+  nativeKarachi: {
+    title: "Native Karachi Plants - Nayab Seeds",
+    description: "Discover plants native to Karachi that thrive in local conditions and support local ecosystems.",
+  },
+};
 
 /** FAQ items for JSON‑LD (home, contact, etc.) */
 export const seoFaqItems = [
@@ -114,11 +107,11 @@ export const seoFaqItems = [
   },
   {
     q: 'Which medicinal plants can I grow at home in Pakistan?',
-    a: 'Popular medicinal plants Pakistan home growers start with: tulsi (holy basil), mint (pudina), moringa (sahjan), fenugreek (methi), and neem. Nayab Seeds sells seeds tested for Karachi’s heat and monsoon, with growing instructions on each product page.',
+    a: 'Popular medicinal plants Pakistan home growers start with: tulsi (holy basil), mint (pudina), moringa (sahjan), fenugreek (methi), and neem. Nayab Seeds sells seeds tested for Karachi\'s heat and monsoon, with growing instructions on each product page.',
   },
   {
     q: 'What heat tolerant plants survive Karachi summer?',
-    a: 'Heat tolerant plants Pakistan and Karachi summers include moringa, neem, marigold, butterfly pea, and cleome. Water early morning, use mulch, and avoid peak afternoon sun for young seedlings. Nayab Seeds marks heat‑tolerant and “Karachi Summer Survivor” species in the shop.',
+    a: 'Heat tolerant plants Pakistan and Karachi summers include moringa, neem, marigold, butterfly pea, and cleome. Water early morning, use mulch, and avoid peak afternoon sun for young seedlings. Nayab Seeds marks heat‑tolerant and "Karachi Summer Survivor" species in the shop.',
   },
   {
     q: 'When is the best time to plant seeds in Karachi?',
@@ -136,7 +129,7 @@ export const seoFaqItems = [
     q: 'How do I choose seeds for a beginner garden in Karachi?',
     a: 'Start with beginner‑friendly seeds: mint, tulsi, marigold, coriander, or the Beginner Herb Garden Kit. Use the free Smart Plant Quiz at nayabseeds.pk/quiz for recommendations based on your balcony or garden, sunlight, and season.',
   },
- ] as const;
+] as const;
 
 /**
  * Helper to generate a concise product meta description.
