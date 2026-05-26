@@ -7,15 +7,16 @@ import ShopPage from "./pages/ShopPage";
 import ProductPage from "./pages/ProductPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
+import EducationPage from "./pages/EducationPage";
+import GuidePage from "./pages/GuidePage";
 
 /**
  * Root component of the application.
  * Wraps all pages with the persistent layout (navbar, cart drawer, footer)
  * and defines the client‑side routes.
  *
- * Only the pages that currently exist in the repository are routed.
- * Future pages (Blog, Education, Guide, etc.) can be added later
- * without affecting the current build.
+ * Future pages (Quiz, Native Karachi, etc.) can be added later.
  */
 export default function App() {
   return (
@@ -30,9 +31,12 @@ export default function App() {
             <Route path="/shop" element={<ShopPage />} />
             <Route path="/product/:handle" element={<ProductPage />} />
 
-            {/* Additional static pages */}
+            {/* Static pages */}
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/education" element={<EducationPage />} />
+            <Route path="/guide" element={<GuidePage />} />
 
             {/* Catch‑all: redirect unknown URLs to home */}
             <Route path="*" element={<HomePage />} />
