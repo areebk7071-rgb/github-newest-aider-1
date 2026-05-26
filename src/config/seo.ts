@@ -95,6 +95,11 @@ export const pageSeo = {
     description:
       'Karachi gardeners sharing balcony gardens, rooftop farms, and pollinator projects. Community forum coming soon from Nayab Seeds.',
   },
+  education: {
+    title: 'Plant Guides & Education — Karachi Gardening',
+    description:
+      'Learn how to grow seeds, herbs, vegetables, and native plants in Karachi’s climate with our free gardening guides and tutorials.',
+  },
 } as const;
 
 /** FAQ items for JSON‑LD (home, contact, etc.) */
@@ -131,7 +136,7 @@ export const seoFaqItems = [
     q: 'How do I choose seeds for a beginner garden in Karachi?',
     a: 'Start with beginner‑friendly seeds: mint, tulsi, marigold, coriander, or the Beginner Herb Garden Kit. Use the free Smart Plant Quiz at nayabseeds.pk/quiz for recommendations based on your balcony or garden, sunlight, and season.',
   },
-] as const;
+ ] as const;
 
 /**
  * Helper to generate a concise product meta description.

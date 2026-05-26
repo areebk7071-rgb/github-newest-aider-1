@@ -1,6 +1,6 @@
 import { useProducts } from "../hooks/useProducts";
 import Seo from "../components/shared/Seo";
-import pageSeo from "../config/pageSeo";
+import { pageSeo } from "../config/seo";
 import HeroSection from "../components/hero/HeroSection";
 import FeaturedProducts from "../components/home/FeaturedProducts";
 import FeaturedCategories from "../components/home/FeaturedCategories";

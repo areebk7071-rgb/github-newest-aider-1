@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Seo from "../components/shared/Seo";
-import pageSeo from "../config/pageSeo";
+import { pageSeo } from "../config/seo";
 
 export default function EducationPage() {
   return (
