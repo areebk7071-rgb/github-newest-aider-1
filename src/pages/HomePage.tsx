@@ -4,6 +4,8 @@ import pageSeo from "../config/pageSeo";
 import HeroSection from "../components/hero/HeroSection";
 import FeaturedProducts from "../components/home/FeaturedProducts";
 import FeaturedCategories from "../components/home/FeaturedCategories";
+import EcologicalMission from "../components/home/EcologicalMission";
+import BeginnerGardening from "../components/home/BeginnerGardening";
 import Testimonials from "../components/home/Testimonials";
 import BlogPreview from "../components/home/BlogPreview";
 import NewsletterSignup from "../components/home/NewsletterSignup";
@@ -29,6 +31,12 @@ export default function HomePage() {
 
       {/* Categories */}
       <FeaturedCategories />
+
+      {/* Ecological Mission */}
+      <EcologicalMission />
+
+      {/* Beginner Gardening Section */}
+      <BeginnerGardening />
 
       {/* Testimonials */}
       <Testimonials />
