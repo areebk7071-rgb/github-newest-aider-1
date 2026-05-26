@@ -1,0 +1,46 @@
+name: Deploy to GitHub Pages
+
+# This workflow builds the Vite + React app and publishes the static
+# output to the `gh-pages` branch, which can be served via GitHub Pages.
+# It runs on every push to the default branch (usually `main`).
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Set up Node.js (use the LTS version)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Build the production bundle
+      - name: Build site
+        run: npm run build
+
+      # 5️⃣ Deploy the `dist` folder to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # Keep the `gh-pages` branch clean – delete old files first
+          force_orphan: true
+          # Optional: add a custom commit message
+          commit_message: "ci: deploy site to GitHub Pages"
+
