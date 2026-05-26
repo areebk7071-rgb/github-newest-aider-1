@@ -1,8 +1,7 @@
 /**
  * Crawlable, human-readable summary for SEO and AI agents (visible, not hidden).
  */
-import { Link } from 'react-router-dom';
-import { pageSeo } from '../../config/seo';
+import { pageSeo } from '../../config/pageSeo';
 
 export default function SeoIntro() {
   return (
@@ -18,10 +17,7 @@ export default function SeoIntro() {
           {pageSeo?.home?.h1Support || "Your trusted source to buy premium seeds online in Pakistan."} Discover our curated selection of 
           organic vegetable seeds, vibrant flower seeds, culinary herbs, and climate-resilient native plants. 
           Perfect for balcony gardening in Karachi or backyard farming across Pakistan. Take our interactive{' '}
-          <Link to="/quiz" className="text-mint-700 dark:text-mint-400 font-medium hover:underline">
-            Smart Plant Quiz
-          </Link>{' '}
-          to find the perfect seeds for your space, sunlight, and experience level.
+          quiz to find the perfect seeds for your space, sunlight, and experience level.
         </p>
       </div>
     </section>
