@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
  * Includes:
  *   • An illustration placeholder (replace with an SVG/illustration later).
  *   • A short copy that matches the brand voice.
- *   • A primary CTA button linking to a guide page (to be created later).
+ *   • A primary CTA button linking to the education page.
  *
  * Accessibility:
  *   • All interactive elements have focus styles.
@@ -52,7 +52,7 @@ export default function BeginnerGardening() {
           </motion.p>
 
           <Link
-            to="/guide"
+            to="/education"
             className="inline-block px-6 py-3 bg-[#F6F2E8] text-[#1F4D36] rounded-full font-medium hover:bg-[#fff] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#4F7D4F]"
           >
             Read the Guide

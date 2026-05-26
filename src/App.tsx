@@ -9,7 +9,6 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 import EducationPage from "./pages/EducationPage";
-import GuidePage from "./pages/GuidePage";
 
 /**
  * Root component of the application.
@@ -36,7 +35,6 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/education" element={<EducationPage />} />
-            <Route path="/guide" element={<GuidePage />} />
 
             {/* Catch‑all: redirect unknown URLs to home */}
             <Route path="*" element={<HomePage />} />
