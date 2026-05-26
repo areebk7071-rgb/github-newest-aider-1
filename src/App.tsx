@@ -9,13 +9,14 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 import EducationPage from "./pages/EducationPage";
+import QuizPage from "./pages/QuizPage";
 
 /**
  * Root component of the application.
  * Wraps all pages with the persistent layout (navbar, cart drawer, footer)
  * and defines the client‑side routes.
  *
- * Future pages (Quiz, Native Karachi, etc.) can be added later.
+ * Future pages (Native Karachi, etc.) can be added later.
  */
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/education" element={<EducationPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
 
             {/* Catch‑all: redirect unknown URLs to home */}
             <Route path="*" element={<HomePage />} />
