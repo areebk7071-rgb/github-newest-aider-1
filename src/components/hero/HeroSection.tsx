@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
  *
  * Implements the PRD requirements:
  *  • Uses brand colors and typography.
- *  • Provides three CTA buttons (Shop Seeds, Explore Plants, Start Growing) so the
- *    copy can be swapped later without code changes.
+ *  • Provides two CTA buttons (Shop Seeds, Explore Plants) as the
+ *    third “Start Growing” guide link has been removed per the latest
+ *    requirements.
  *  • All interactive elements have accessible labels and a clear focus outline.
  *  • Motion animations are kept subtle for performance.
  */
@@ -60,15 +61,6 @@ export default function HeroSection() {
             aria-label="Explore Plants – Learn about our plant collection"
           >
             Explore Plants
-          </Link>
-
-          {/* Optional third CTA – can be repurposed later */}
-          <Link
-            to="/guide"
-            className="px-6 py-3 bg-[#F6F2E8] text-[#1F4D36] rounded-full font-medium hover:bg-[#fff] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#4F7D4F]"
-            aria-label="Start Growing – Get started with our beginner guide"
-          >
-            Start Growing
           </Link>
         </motion.div>
       </div>
