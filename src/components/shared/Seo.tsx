@@ -1,7 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import { siteConfig } from "../../config/site";
 import { seoKeywords, businessFacts, seoFaqItems } from "../../config/seo";
-import defaultOgImage from "../assets/og-home.jpg";
+/* Updated import path: the og image resides in src/assets, so we need to go up two levels
+   from this file (src/components/shared) to reach the assets folder. */
+import defaultOgImage from "../../assets/og-home.jpg";
 
 interface SeoProps {
   title?: string;
