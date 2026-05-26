@@ -26,7 +26,7 @@ export default {
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Outfit', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['"Cormorant Garamond"', 'Outfit', 'serif'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

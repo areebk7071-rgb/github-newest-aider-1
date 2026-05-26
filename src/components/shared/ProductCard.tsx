@@ -30,26 +30,31 @@ export default function ProductCard({
       layout
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      className="group bg-white dark:bg-charcoal-800 rounded-2xl shadow-lg shadow-black/5 dark:shadow-black/20 border border-sage-100 dark:border-charcoal-700 overflow-hidden h-full flex flex-col"
+      className="group bg-white/80 dark:bg-charcoal-800/80 hover:bg-white dark:hover:bg-charcoal-800 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-sage-200/50 dark:border-charcoal-700/30 overflow-hidden h-full flex flex-col hover:-translate-y-1.5"
     >
       <Link to={`/product/${product.handle}`} className="block">
         <div className={`relative overflow-hidden ${compact ? 'h-40' : 'h-52'}`}>
           <LazyImage src={product.image} alt={product.name} className="absolute inset-0" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
-          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
+          
+          {/* Circular Nayab Quality Stamp */}
+          <div className="absolute bottom-3 left-3 pointer-events-none z-10 select-none">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-dashed border-mint-700/80 bg-warm-100/90 dark:bg-charcoal-800/95 flex flex-col items-center justify-center -rotate-12 shadow-md">
+              <span className="text-[7px] sm:text-[8px] uppercase tracking-widest font-extrabold text-mint-800 dark:text-mint-400 leading-none">Nayab</span>
+              <span className="text-[6px] sm:text-[7px] uppercase tracking-widest font-bold text-charcoal-700 dark:text-warm-300 leading-none mt-0.5">Quality</span>
+              <Leaf className="w-2.5 h-2.5 text-[#D4A62A] mt-1" />
+            </div>
+          </div>
+
+          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-20">
             {product.medicinal && (
-              <span className="px-2 py-0.5 rounded-full bg-mint-500/90 text-white text-xs font-medium flex items-center gap-1">
-                <Leaf className="w-3 h-3" /> Medicinal
-              </span>
-            )}
-            {product.pollinator && (
-              <span className="px-2 py-0.5 rounded-full bg-sage-500/90 text-white text-xs font-medium flex items-center gap-1">
-                <Bug className="w-3 h-3" /> Pollinator
+              <span className="px-2.5 py-1 rounded-full bg-mint-800/90 backdrop-blur-sm text-white text-[10px] uppercase tracking-wider font-extrabold flex items-center gap-1 shadow-sm">
+                <Leaf className="w-3 h-3 text-[#D4A62A]" /> Medicinal
               </span>
             )}
             {product.native && (
-              <span className="px-2 py-0.5 rounded-full bg-terracotta-500/90 text-white text-xs font-medium flex items-center gap-1">
-                <Sparkles className="w-3 h-3" /> Native
+              <span className="px-2.5 py-1 rounded-full bg-[#1F4D36]/90 backdrop-blur-sm text-white text-[10px] uppercase tracking-wider font-extrabold flex items-center gap-1 shadow-sm">
+                <Sparkles className="w-3 h-3 text-[#D4A62A]" /> Native
               </span>
             )}
           </div>
@@ -57,15 +62,15 @@ export default function ProductCard({
             <button
               type="button"
               onClick={(e) => { e.preventDefault(); onToggleWishlist(product); }}
-              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 dark:bg-charcoal-800/90 flex items-center justify-center shadow-lg"
+              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 dark:bg-charcoal-800/90 flex items-center justify-center shadow-md transition-all hover:scale-110 active:scale-95 z-20"
               aria-label="Add to wishlist"
             >
-              <Heart className={`w-4 h-4 ${isInWishlist(product.id) ? 'fill-terracotta-500 text-terracotta-500' : 'text-charcoal-400'}`} />
+              <Heart className={`w-4.5 h-4.5 ${isInWishlist(product.id) ? 'fill-terracotta-500 text-terracotta-500' : 'text-charcoal-400'}`} />
             </button>
           )}
-          <div className="absolute bottom-3 right-3 flex items-center gap-0.5 px-2 py-1 rounded-full bg-white/90 dark:bg-charcoal-800/90">
+          <div className="absolute bottom-3 right-3 flex items-center gap-0.5 px-2 py-1 rounded-full bg-white/90 dark:bg-charcoal-800/90 z-20">
             {Array.from({ length: 5 }, (_, i) => (
-              <Star key={i} className={`w-3 h-3 ${i < product.karachiRating ? 'fill-terracotta-400 text-terracotta-400' : 'text-charcoal-300'}`} />
+              <Star key={i} className={`w-2.5 h-2.5 ${i < product.karachiRating ? 'fill-[#D4A62A] text-[#D4A62A]' : 'text-charcoal-300'}`} />
             ))}
           </div>
         </div>

@@ -6,6 +6,7 @@ import {
   createShopifyCart,
   addToShopifyCart,
 } from '../lib/shopify/cart';
+import { siteConfig } from '../config/site';
 
 interface CartContextType {
   items: CartItem[];
@@ -139,7 +140,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
     const message = encodeURIComponent(
       `Assalam-o-Alaikum! I'd like to order:\n\n${lines}\n\nTotal: Rs. ${totalPrice}\n\nPayment: COD / Easypaisa / JazzCash`
     );
-    const wa = import.meta.env.VITE_WHATSAPP_NUMBER || '923001234567';
+    const wa = siteConfig.contact.whatsapp;
     window.open(`https://wa.me/${wa}?text=${message}`, '_blank');
   }, [items, totalPrice, useShopify]);
 
