@@ -27,7 +27,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Grow the Extraordinary.
+          Hey there, green thumbs! 👋
         </motion.h1>
 
         {/* Sub‑headline */}

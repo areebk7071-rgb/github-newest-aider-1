@@ -103,3 +103,9397 @@
 
 # 2026-05-26 01:25:20.852116
 +y
+
+# 2026-05-26 14:28:28.440762
++n
+
+# 2026-05-26 14:28:36.081398
++y
+
+# 2026-05-26 14:30:00.799828
++go through this folder and create a functional site with spotify implementation
+
+# 2026-05-26 14:32:20.617705
++n
+
+# 2026-05-26 14:32:45.235864
++go through this folder and make the website into a full MVP 
+
+# 2026-05-26 14:33:08.101384
++n
+
+# 2026-05-26 14:33:11.165088
++hi
+
+# 2026-05-26 14:33:27.166828
++n
+
+# 2026-05-26 14:33:49.696865
++hi
+
+# 2026-05-26 14:34:15.001547
++n
+
+# 2026-05-26 14:34:21.027426
++hi
+
+# 2026-05-26 14:34:56.181379
++go through this folder for my website and it into a full MVP 
+
+# 2026-05-26 14:37:21.729170
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:37:25.672578
++y
+
+# 2026-05-26 14:44:19.416456
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:46:38.449592
++y
+
+# 2026-05-26 14:46:53.611283
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:47:40.206005
++D
+
+# 2026-05-26 14:47:43.838792
++y
+
+# 2026-05-26 14:47:53.535540
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:48:19.256539
++do everyt
+
+# 2026-05-26 14:48:46.836093
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:49:08.837018
++y
+
+# 2026-05-26 14:50:23.322967
++tell me if the site is runnable
+
+# 2026-05-26 14:52:12.323236
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:55:29.921849
++y
+
+# 2026-05-26 14:56:32.718132
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 14:57:29.881458
++y
+
+# 2026-05-26 14:57:41.299441
++remove the guide page
+
+# 2026-05-26 14:59:05.153379
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 15:02:17.143267
++now run the site locally
+
+# 2026-05-26 15:03:28.876542
++y
+
+# 2026-05-26 15:05:49.111610
++hi
+
+# 2026-05-26 15:06:09.744587
++push the current site to github
+
+# 2026-05-26 15:06:30.673353
++y
+
+# 2026-05-26 15:06:53.276643
++I can give you the repo link to push it
+
+# 2026-05-26 15:07:53.201682
++https://github.com/areebk7071-rgb/nayab-seeds-aider-1 push it to this repo
+
+# 2026-05-26 15:07:56.656548
++y
+
+# 2026-05-26 15:10:54.478427
++n
+
+# 2026-05-26 15:11:00.646465
++try again
+
+# 2026-05-26 15:12:12.515947
++y
+
+# 2026-05-26 15:13:12.192016
++guide me on how to push this repo
+
+# 2026-05-26 15:13:57.842932
++no
+
+# 2026-05-26 15:14:29.925376
++guide me on how to push the repo step by step
+
+# 2026-05-26 15:18:36.688627
++No
+
+# 2026-05-26 15:18:39.248710
++hi
+
+# 2026-05-26 15:19:12.626798
++no
+
+# 2026-05-26 15:19:18.563142
++only give me the second step
+
+# 2026-05-26 15:20:19.775613
++no
+
+# 2026-05-26 15:20:26.673170
++just help me run the site
+
+# 2026-05-26 15:21:25.972204
++y
+
+# 2026-05-26 15:21:54.086716
++no
+
+# 2026-05-26 15:23:16.197609
++uv tool run --from aider-chat aider --model openrouter/nvidia/nemotron-3-super-120b-a12b:free
+
+# 2026-05-26 15:23:39.134853
++no
+
+# 2026-05-26 15:23:51.255493
++hi
+
+# 2026-05-26 15:26:05.817596
++y
+
+# 2026-05-26 15:47:49.258635
++no
+
+# 2026-05-26 15:48:39.734344
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 15:48:42.782272
++y
+
+# 2026-05-26 15:49:31.569356
++no
+
+# 2026-05-26 15:50:14.253738
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 15:50:16.853731
++y
+
+# 2026-05-26 15:51:00.592979
++no
+
+# 2026-05-26 15:51:02.175786
++hi
+
+# 2026-05-26 15:51:41.010910
++uv tool run --from aider-chat aider --model openrouter/deepseek/deepseek-v4-flash:free
+
+# 2026-05-26 15:51:51.796661
++y
+
+# 2026-05-26 15:51:55.524166
++hi
+
+# 2026-05-26 16:04:51.589576
++uv tool run --from aider-chat aider --model gemini/gemini-3.5-flash
+
+# 2026-05-26 16:05:02.325804
++hi
+
+# 2026-05-26 16:05:20.736083
++look at this folder and follow this prd:
+
+# 2026-05-26 16:05:38.137028
++Nayab Seeds — Refined Product Requirements Document (PRD)
++
++Shopify-Powered Ecological Seed Store
++
++Brand: Nayab Seeds
++Tagline: Grow the Extraordinary
++
++
++---
++
++1. Project Vision
++
++Build a clean, premium, modern ecological seed ecommerce website for Nayab Seeds using:
++
++Shopify backend
++
++Lovable frontend generation
++
++React + Tailwind architecture
++
++SEO-first structure
++
++
++The first version should focus on:
++
++making the store functional
++
++selling seeds
++
++educational gardening content
++
++mobile optimization
++
++strong branding
++
++scalability
++
++
++Do NOT build advanced AI systems yet.
++
++Future-ready placeholders should only exist for:
++
++Forum/community features
++
++Native Karachi ecological project integration
++
++Plant quiz functionality
++
++
++
++---
++
++2. Brand Identity
++
++Nayab Seeds should feel:
++
++botanical
++
++trustworthy
++
++earthy
++
++educational
++
++premium
++
++hopeful
++
++ecological
++
++community-oriented
++
++
++Inspired by:
++
++seed preservation
++
++biodiversity
++
++urban gardening
++
++ecological restoration
++
++Pakistani gardening culture
++
++
++
++---
++
++3. Logo Usage
++
++Use the uploaded Nayab Seeds logos for:
++
++navbar branding
++
++favicon
++
++footer branding
++
++loading screen
++
++packaging inspiration
++
++social sharing previews
++
++
++
++---
++
++4. Color Palette
++
++Derived from uploaded logo:
++
++Primary Colors
++
++Deep Forest Green — #1F4D36
++
++Botanical Green — #4F7D4F
++
++Earth Brown — #7A4E2D
++
++Warm Gold — #D4A62A
++
++Soft Cream — #F6F2E8
++
++
++
++---
++
++5. Typography
++
++Headings
++
++Cormorant Garamond OR
++
++Playfair Display
++
++
++Body
++
++Inter OR
++
++Source Sans Pro
++
++
++Typography should feel:
++
++elegant
++
++readable
++
++nature-inspired
++
++premium
++
++
++
++---
++
++6. Technical Stack
++
++Frontend
++
++React
++
++TailwindCSS
++
++Framer Motion
++
++Lovable-compatible structure
++
++
++Backend
++
++Shopify
++
++Shopify Storefront API
++
++Shopify CMS
++
++
++Hosting
++
++Vercel preferred OR
++
++Netlify
++
++
++
++---
++
++7. Main Website Goals
++
++The website must:
++
++sell seeds online
++
++be easy to manage
++
++load fast
++
++rank on Google
++
++be AI-search friendly
++
++educate customers
++
++support future expansion
++
++
++
++---
++
++8. Website Structure
++
++Pages Required
++
++Home Page
++
++Sections:
++
++1. Hero Section
++
++
++2. Featured Seeds
++
++
++3. Categories
++
++
++4. Ecological Mission
++
++
++5. Beginner Gardening Section
++
++
++6. Testimonials
++
++
++7. Blog Preview
++
++
++8. Newsletter Signup
++
++
++9. Footer
++
++
++
++
++---
++
++Shop Page
++
++Features:
++
++category filtering
++
++product search
++
++sorting
++
++Shopify sync
++
++responsive grid layout
++
++
++Categories:
++
++Vegetables
++
++Flowers
++
++Herbs
++
++Native Plants
++
++Rare Seeds
++
++Fruit Seeds
++
++Tree Seeds
++
++Beginner-Friendly Plants
++
++
++
++---
++
++Product Pages
++
++Each product page should include:
++
++title
++
++price
++
++stock status
++
++growing difficulty
++
++watering needs
++
++sunlight requirements
++
++germination time
++
++climate compatibility
++
++Karachi growing suitability
++
++planting instructions
++
++related products
++
++
++Features:
++
++image gallery
++
++zoom
++
++add to cart
++
++wishlist
++
++mobile optimization
++
++
++
++---
++
++About Page
++
++Should communicate:
++
++Nayab Seeds mission
++
++ecological values
++
++biodiversity awareness
++
++gardening accessibility
++
++restoration mindset
++
++
++Tone:
++
++warm
++
++personal
++
++trustworthy
++
++
++
++---
++
++Blog / Learning Hub
++
++Important for SEO and brand authority.
++
++Topics:
++
++gardening guides
++
++Karachi planting tips
++
++balcony gardening
++
++composting
++
++native plants
++
++beginner gardening
++
++pollinator gardening
++
++seasonal planting
++
++
++Features:
++
++categories
++
++tags
++
++SEO optimization
++
++internal linking
++
++article previews
++
++
++
++---
++
++Contact Page
++
++Include:
++
++contact form
++
++WhatsApp button
++
++Instagram link
++
++FAQ
++
++shipping policy
++
++return policy
++
++
++
++---
++
++9. Ecommerce Features
++
++Required
++
++Shopify cart
++
++checkout
++
++inventory sync
++
++customer accounts
++
++order tracking
++
++discount codes
++
++wishlist
++
++responsive design
++
++
++Nice-to-Have
++
++planting calendar
++
++gardening journal
++
++bundle recommendations
++
++
++
++---
++
++10. SEO Requirements (VERY IMPORTANT)
++
++Traditional SEO
++
++Must include:
++
++semantic HTML
++
++optimized heading hierarchy
++
++metadata
++
++OpenGraph tags
++
++Twitter cards
++
++XML sitemap
++
++robots.txt
++
++schema markup
++
++image optimization
++
++lazy loading
++
++fast page speed
++
++
++
++---
++
++11. AI Search Optimization
++
++The site should be optimized for:
++
++ChatGPT search
++
++Google AI Overviews
++
++Perplexity
++
++Gemini
++
++Claude
++
++
++Content strategy should:
++
++answer questions clearly
++
++use FAQ sections
++
++explain gardening terms naturally
++
++include educational summaries
++
++use descriptive language
++
++
++Example: “Mint grows well in Karachi’s warm climate when given partial sunlight and regular watering.”
++
++
++---
++
++12. Target SEO Keywords
++
++Core Keywords
++
++buy seeds online Pakistan
++
++vegetable seeds Pakistan
++
++flower seeds Pakistan
++
++gardening Pakistan
++
++native plants Pakistan
++
++rare seeds Pakistan
++
++organic seeds Pakistan
++
++
++Long Tail Keywords
++
++best plants for Karachi weather
++
++beginner gardening Pakistan
++
++balcony gardening Karachi
++
++heat resistant plants Pakistan
++
++
++
++---
++
++13. Design Direction
++
++Style
++
++Blend:
++
++botanical illustration
++
++premium organic branding
++
++ecological storytelling
++
++modern ecommerce UI
++
++
++Avoid:
++
++overly corporate design
++
++neon startup aesthetics
++
++sterile minimalism
++
++
++
++---
++
++14. UI Style
++
++Use:
++
++rounded cards
++
++soft shadows
++
++organic shapes
++
++earthy gradients
++
++subtle animations
++
++nature-inspired textures
++
++
++
++---
++
++15. Homepage Hero
++
++Suggested Hero Text
++
++Option 1
++
++“Grow the Extraordinary.”
++
++Option 2
++
++“Seeds for Gardens That Matter.”
++
++Option 3
++
++“Plant Something Beautiful.”
++
++CTA Buttons:
++
++Shop Seeds
++
++Explore Plants
++
++Start Growing
++
++
++
++---
++
++16. Mobile Optimization
++
++Prioritize:
++
++mobile-first design
++
++fast loading
++
++optimized checkout
++
++sticky navigation
++
++thumb-friendly UI
++
++compressed assets
++
++
++
++---
++
++17. Performance Goals
++
++Target:
++
++Lighthouse score above 90
++
++fast page loading
++
++optimized assets
++
++responsive performance
++
++
++
++---
++
++18. Accessibility
++
++Must include:
++
++alt text
++
++readable contrast
++
++semantic structure
++
++keyboard accessibility
++
++screen reader compatibility
++
++
++
++---
++
++19. Future Features (DO NOT BUILD YET)
++
++1. Community Forum
++
++Future section for:
++
++gardening discussions
++
++seed sharing
++
++growing tips
++
++restoration discussions
++
++local gardening community
++
++
++Architecture should allow future expansion.
++
++
++---
++
++2. Native Karachi Integration
++
++Future ecosystem/restoration project integration.
++
++Potential future features:
++
++native species database
++
++restoration mapping
++
++ecological education
++
++citizen science submissions
++
++
++Only reserve scalable structure for this.
++
++
++---
++
++3. Plant Quiz System
++
++Future educational quiz feature.
++
++Potential uses:
++
++beginner gardening recommendations
++
++“What plant should you grow?”
++
++climate compatibility suggestions
++
++plant care guidance
++
++
++Do NOT implement yet.
++
++
++---
++
++20. Shopify Apps Recommended
++
++Judge.me Reviews
++
++Klaviyo
++
++TinyIMG SEO
++
++Shopify Inbox
++
++Wishlist App
++
++Bundle App
++
++
++
++---
++
++21. Tone of Voice
++
++The brand voice should feel:
++
++educational
++
++calm
++
++hopeful
++
++intelligent
++
++grounded
++
++ecological
++
++
++Avoid:
++
++aggressive marketing
++
++fake urgency
++
++excessive corporate language
++
++
++
++---
++
++22. Final Deliverables for Lovable
++
++Generate:
++
++fully responsive frontend
++
++Shopify integration structure
++
++reusable components
++
++SEO-ready architecture
++
++blog system
++
++ecommerce product templates
++
++scalable folder structure
++
++production-ready React + Tailwind code
++
++
++
++---
++
++23. Final Creative Direction
++
++Nayab Seeds should feel like:
++
++> “A modern ecological seed company focused on helping people grow beautiful, resilient gardens while reconnecting with nature.”
++
++
++
++The website should emotionally communicate:
++
++growth
++
++care
++
++biodiversity
++
++restoration
++
++warmth
++
++possibility
++
++ecological hope
+
+# 2026-05-26 16:05:40.449051
++y
+
+# 2026-05-26 16:07:24.281383
++ynow push this repo to my github I will give you the link
+
+# 2026-05-26 16:07:42.306883
++y
+
+# 2026-05-26 16:07:51.778365
++https://github.com/areebk7071-rgb/nayab-seeds.git here is the link
+
+# 2026-05-26 16:07:53.851470
++y
+
+# 2026-05-26 16:08:27.958115
++git add .
