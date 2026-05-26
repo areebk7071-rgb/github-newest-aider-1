@@ -13,6 +13,7 @@ export default function HomePage() {
 
   return (
     <>
+      {/* SEO – includes FAQ schema for the home page */}
       <Seo
         title={pageSeo.home.title}
         description={pageSeo.home.description}
@@ -20,7 +21,7 @@ export default function HomePage() {
         includeFaqSchema
       />
 
-      {/* Hero */}
+      {/* Hero Section – brand‑driven, accessible, three CTAs */}
       <HeroSection />
 
       {/* Featured Seeds */}

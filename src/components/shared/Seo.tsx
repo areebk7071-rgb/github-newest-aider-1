@@ -14,6 +14,9 @@ interface SeoProps {
   noSuffix?: boolean;
 }
 
+/* -------------------------------------------------------------------------- */
+/* Schema builders – kept pure functions for testability                     */
+/* -------------------------------------------------------------------------- */
 function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -76,6 +79,9 @@ function buildFaqSchema() {
   };
 }
 
+/* -------------------------------------------------------------------------- */
+/* Main component                                                             */
+/* -------------------------------------------------------------------------- */
 export default function Seo({
   title,
   description = siteConfig.description,
@@ -98,17 +104,25 @@ export default function Seo({
 
   return (
     <Helmet>
+      {/* Basic HTML attributes */}
       <html lang="en-PK" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      {/* Primary SEO tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
+      <meta name="author" content={siteConfig.name} />
+      <meta name="robots" content="index, follow, max-image-preview:large" />
+      <link rel="canonical" href={url} />
+
+      {/* Geo tags for local SEO */}
       <meta name="geo.region" content="PK-SD" />
       <meta name="geo.placename" content="Karachi" />
       <meta name="geo.position" content="24.8607;67.0011" />
       <meta name="ICBM" content="24.8607, 67.0011" />
-      <meta name="author" content={siteConfig.name} />
-      <meta name="robots" content="index, follow, max-image-preview:large" />
-      <link rel="canonical" href={url} />
+
+      {/* Open Graph */}
       <meta property="og:type" content={type} />
       <meta property="og:site_name" content={siteConfig.name} />
       <meta property="og:title" content={fullTitle} />
@@ -116,10 +130,14 @@ export default function Seo({
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:locale" content={siteConfig.locale} />
+
+      {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+
+      {/* JSON‑LD schema markup */}
       {schemas.map((schema, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(schema)}
