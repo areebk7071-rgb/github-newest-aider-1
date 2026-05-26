@@ -1,44 +1,44 @@
-import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ShopPage from './pages/ShopPage';
-import ProductPage from './pages/ProductPage';
-import QuizPage from './pages/QuizPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import NativeKarachiPage from './pages/NativeKarachiPage';
-import CommunityPage from './pages/CommunityPage';
-import MainLayout from './layouts/MainLayout';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+
+import MainLayout from "./layouts/MainLayout";
+import HomePage from "./pages/HomePage";
+import ShopPage from "./pages/ShopPage";
+import ProductPage from "./pages/ProductPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 /**
  * Root component of the application.
- * It wraps all pages with the persistent layout (navbar, footer, cart drawer)
+ * Wraps all pages with the persistent layout (navbar, cart drawer, footer)
  * and defines the client‑side routes.
  *
- * If any of the imported page components are missing, Vite will throw a clear
- * error during compilation, preventing a silent white screen.
+ * Only the pages that currently exist in the repository are routed.
+ * Future pages (Blog, Education, Guide, etc.) can be added later
+ * without affecting the current build.
  */
 export default function App() {
   return (
-    <MainLayout>
-      <Routes>
-        {/* Home */}
-        <Route path="/" element={<HomePage />} />
+    <HelmetProvider>
+      <Router>
+        <MainLayout>
+          <Routes>
+            {/* Home */}
+            <Route path="/" element={<HomePage />} />
 
-        {/* Shop & product routes */}
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/product/:handle" element={<ProductPage />} />
+            {/* Shop & product routes */}
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/product/:handle" element={<ProductPage />} />
 
-        {/* Additional pages */}
-        <Route path="/quiz" element={<QuizPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/native-karachi" element={<NativeKarachiPage />} />
-        <Route path="/community" element={<CommunityPage />} />
+            {/* Additional static pages */}
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
 
-        {/* Catch‑all: redirect unknown URLs to home */}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </MainLayout>
+            {/* Catch‑all: redirect unknown URLs to home */}
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </MainLayout>
+      </Router>
+    </HelmetProvider>
   );
 }
