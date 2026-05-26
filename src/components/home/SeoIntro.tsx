@@ -1,7 +1,7 @@
 /**
  * Crawlable, human-readable summary for SEO and AI agents (visible, not hidden).
  */
-import { pageSeo } from '../../config/pageSeo';
+import pageSeo from '../../config/pageSeo';
 
 export default function SeoIntro() {
   return (
