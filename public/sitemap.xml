@@ -1,12 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nayabseeds.pk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://nayabseeds.pk/shop</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://nayabseeds.pk/quiz</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://nayabseeds.pk/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://nayabseeds.pk/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nayabseeds.pk/shop?category=native</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nayabseeds.pk/shop?category=medicinal</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nayabseeds.pk/shop?category=heat-tolerant</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nayabseeds.pk/shop?category=beginner</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- Home -->
+  <url>
+    <loc>https://nayabseeds.pk/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Shop overview -->
+  <url>
+    <loc>https://nayabseeds.pk/shop</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Individual shop categories (static placeholders) -->
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=vegetables</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=flowers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=herbs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=native-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=rare-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=fruit-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=tree-seeds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/shop?category=beginner-friendly</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://nayabseeds.pk/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog / Learning Hub -->
+  <url>
+    <loc>https://nayabseeds.pk/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact page -->
+  <url>
+    <loc>https://nayabseeds.pk/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Education / Plant Guides -->
+  <url>
+    <loc>https://nayabseeds.pk/education</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Placeholder for dynamic product pages – crawlers can discover via Shopify API,
+       but we provide a few static examples for SEO -->
+  <url>
+    <loc>https://nayabseeds.pk/product/example-seed-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nayabseeds.pk/product/example-seed-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Quiz placeholder (future feature) -->
+  <url>
+    <loc>https://nayabseeds.pk/quiz</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
