@@ -6,7 +6,7 @@ import FeaturedProducts from "../components/home/FeaturedProducts";
 import FeaturedCategories from "../components/home/FeaturedCategories";
 import EcologicalMission from "../components/home/EcologicalMission";
 import BeginnerGardening from "../components/home/BeginnerGardening";
-// import Testimonials from "../components/home/Testimonials";
+import Testimonials from "../components/home/Testimonials";
 import BlogPreview from "../components/home/BlogPreview";
 import NewsletterSignup from "../components/home/NewsletterSignup";
 import SeoIntro from "../components/home/SeoIntro";
@@ -43,7 +43,7 @@ export default function HomePage() {
       <BeginnerGardening />
 
       {/* Testimonials */}
-      {/* <Testimonials /> */}
+      <Testimonials />
 
       {/* Blog preview */}
       <BlogPreview />
