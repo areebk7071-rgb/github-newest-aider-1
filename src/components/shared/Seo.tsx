@@ -23,23 +23,30 @@ function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: businessFacts.name,
-    url: siteConfig.url,
-    description: siteConfig.description,
+    name: "Nayab Seeds",
+    url: siteConfig.url || "https://nayabseeds.pk",
+    description: "Grow the Extraordinary. Premium ecological seeds, native plants, and organic gardening in Pakistan.",
     areaServed: {
       "@type": "City",
-      name: businessFacts.location.city,
+      name: "Karachi",
       containedInPlace: {
         "@type": "Country",
-        name: businessFacts.location.country,
+        name: "Pakistan",
       },
     },
-    knowsAbout: businessFacts.specializes,
+    knowsAbout: [
+      "Organic Seeds",
+      "Vegetable Seeds Pakistan",
+      "Flower Seeds Pakistan",
+      "Native Plants Pakistan",
+      "Rare Seeds",
+      "Ecological Restoration"
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
-      email: siteConfig.contact.email,
-      telephone: siteConfig.contact.phone,
+      email: siteConfig.contact?.email || "info@nayabseeds.pk",
+      telephone: siteConfig.contact?.phone || "",
       areaServed: "PK",
       availableLanguage: ["English", "Urdu"],
     },
@@ -50,17 +57,17 @@ function buildWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: businessFacts.name,
-    url: siteConfig.url,
-    description: siteConfig.description,
+    name: "Nayab Seeds",
+    url: siteConfig.url || "https://nayabseeds.pk",
+    description: "Grow the Extraordinary. Premium ecological seeds, native plants, and organic gardening in Pakistan.",
     inLanguage: "en-PK",
     about: {
       "@type": "Thing",
-      name: "Karachi gardening and ecological seeds in Pakistan",
+      name: "Karachi gardening, organic seeds, and ecological restoration in Pakistan",
     },
     potentialAction: {
       "@type": "SearchAction",
-      target: `${siteConfig.url}/shop?search={search_term_string}`,
+      target: `${siteConfig.url || "https://nayabseeds.pk"}/shop?search={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   };
@@ -86,20 +93,22 @@ function buildFaqSchema() {
 /* -------------------------------------------------------------------------- */
 export default function Seo({
   title,
-  description = siteConfig.description,
+  description = "Grow the Extraordinary. Buy premium vegetable, flower, herb, and native seeds online in Pakistan. Optimized for Karachi and local climates.",
   path = "",
   image,
   type = "website",
   includeFaqSchema = false,
   noSuffix = false,
 }: SeoProps) {
-  const brandSuffix = noSuffix ? "" : ` | ${siteConfig.name}`;
+  const brandName = "Nayab Seeds";
+  const tagline = "Grow the Extraordinary";
+  const brandSuffix = noSuffix ? "" : ` | ${brandName}`;
   const fullTitle = title
     ? `${title}${brandSuffix}`
-    : `${siteConfig.name} — ${siteConfig.tagline} | Karachi Gardening Seeds Pakistan`;
-  const url = `${siteConfig.url}${path}`;
+    : `${brandName} — ${tagline} | Premium Ecological Seeds Pakistan`;
+  const url = `${siteConfig.url || "https://nayabseeds.pk"}${path}`;
   const ogImage = image ?? defaultOgImage;
-  const keywords = seoKeywords.join(", ");
+  const keywords = seoKeywords.join(", ") || "buy seeds online Pakistan, vegetable seeds Pakistan, flower seeds Pakistan, gardening Pakistan, native plants Pakistan, rare seeds Pakistan, organic seeds Pakistan";
 
   const schemas: Record<string, unknown>[] = [buildOrganizationSchema(), buildWebSiteSchema()];
   if (includeFaqSchema) schemas.push(buildFaqSchema());
@@ -114,7 +123,7 @@ export default function Seo({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content={siteConfig.name} />
+      <meta name="author" content={brandName} />
       <meta name="robots" content="index, follow, max-image-preview:large" />
       <link rel="canonical" href={url} />
 
@@ -126,12 +135,12 @@ export default function Seo({
 
       {/* Open Graph */}
       <meta property="og:type" content={type} />
-      <meta property="og:site_name" content={siteConfig.name} />
+      <meta property="og:site_name" content={brandName} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:locale" content={siteConfig.locale} />
+      <meta property="og:locale" content="en_PK" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

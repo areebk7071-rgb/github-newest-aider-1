@@ -15,7 +15,7 @@ const questions: {
 }[] = [
   {
     id: 'space',
-    question: 'Balcony or garden?',
+    question: 'What is your growing space?',
     description: 'We will match plants to your growing space in Karachi.',
     options: [
       { label: '🏠 Balcony or windowsill', value: 'balcony' },
@@ -24,7 +24,7 @@ const questions: {
   },
   {
     id: 'sunlight',
-    question: 'How much sunlight do you get?',
+    question: 'How much sunlight does your space receive?',
     description: 'Honest answers help us recommend plants that will actually thrive.',
     options: [
       { label: '☀️ Full sun (6+ hours)', value: 'full-sun' },
@@ -34,7 +34,7 @@ const questions: {
   },
   {
     id: 'watering',
-    question: 'How often can you water?',
+    question: 'How often can you water your plants?',
     description: 'We match low-maintenance or frequent-care plants accordingly.',
     options: [
       { label: '💧 Daily', value: 'daily' },
@@ -44,18 +44,18 @@ const questions: {
   },
   {
     id: 'purpose',
-    question: 'Medicinal, edible, flowers, or greenery?',
+    question: 'What is your primary gardening goal?',
     description: 'What matters most to you right now?',
     options: [
       { label: '🌿 Medicinal & herbal', value: 'medicinal' },
-      { label: '🥘 Edible & kitchen', value: 'edible' },
-      { label: '🌸 Flowers & colour', value: 'flowers' },
-      { label: '🍃 Greenery & natives', value: 'greenery' },
+      { label: '🥘 Edible & kitchen crops', value: 'edible' },
+      { label: '🌸 Flowers & color', value: 'flowers' },
+      { label: '🍃 Greenery & native species', value: 'greenery' },
     ],
   },
   {
     id: 'experience',
-    question: 'Beginner or experienced?',
+    question: 'What is your gardening experience level?',
     description: 'No wrong answer — we celebrate every grower.',
     options: [
       { label: '🌱 Complete beginner', value: 'beginner' },
@@ -123,7 +123,7 @@ export default function PlantQuiz({ products, compact = false }: PlantQuizProps)
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-mint-400/10 text-mint-400 text-sm font-medium mb-3">
             <Sparkles className="w-4 h-4" /> Smart Plant Quiz
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-warm-50">Find Your Perfect Plant</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-warm-50 font-serif">Find Your Perfect Plant</h2>
           <p className="text-charcoal-300 text-sm mt-2 max-w-lg mx-auto">
             A quick, conversational quiz tailored for Karachi&apos;s climate.
           </p>
@@ -144,7 +144,7 @@ export default function PlantQuiz({ products, compact = false }: PlantQuizProps)
               ))}
             </div>
             <p className="text-xs font-semibold text-mint-500 mb-1">Question {step + 1} of {questions.length}</p>
-            <h3 className="text-xl font-bold text-charcoal-900 dark:text-warm-100 mb-1">{questions[step].question}</h3>
+            <h3 className="text-xl font-bold text-charcoal-900 dark:text-warm-100 mb-1 font-serif">{questions[step].question}</h3>
             <p className="text-sm text-charcoal-500 dark:text-charcoal-400 mb-5">{questions[step].description}</p>
             <div className="space-y-2.5">
               {questions[step].options.map((opt, idx) => (
@@ -172,7 +172,7 @@ export default function PlantQuiz({ products, compact = false }: PlantQuizProps)
           <motion.div key="results" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             <div className="text-center mb-6">
               <Sparkles className="w-10 h-10 text-mint-500 mx-auto mb-3" />
-              <h3 className="text-xl font-bold text-charcoal-900 dark:text-warm-100">Your Karachi Plant Matches</h3>
+              <h3 className="text-xl font-bold text-charcoal-900 dark:text-warm-100 font-serif">Your Karachi Plant Matches</h3>
               <p className="text-sm text-charcoal-500 dark:text-charcoal-400 mt-1">Based on your space, light, and goals</p>
             </div>
             <ul className="space-y-3 mb-6 max-h-[420px] overflow-y-auto pr-1">

@@ -9,6 +9,7 @@ import BeginnerGardening from "../components/home/BeginnerGardening";
 import Testimonials from "../components/home/Testimonials";
 import BlogPreview from "../components/home/BlogPreview";
 import NewsletterSignup from "../components/home/NewsletterSignup";
+import SeoIntro from "../components/home/SeoIntro";
 
 export default function HomePage() {
   const { products } = useProducts();
@@ -25,6 +26,9 @@ export default function HomePage() {
 
       {/* Hero Section – brand‑driven, accessible, three CTAs */}
       <HeroSection />
+
+      {/* Visible, crawlable summary for SEO and AI search engines */}
+      <SeoIntro />
 
       {/* Featured Seeds */}
       <FeaturedProducts products={products} />
